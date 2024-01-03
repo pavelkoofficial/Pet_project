@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    let layout = [GridItem(.adaptive(minimum: screen.width / 2.2))]
+    
     var body: some View {
-        HeaderComponent(title: "Моя лапка")
+        VStack {
+            ZStack {
+                HeaderComponent(title: "Моя Лапка")
+            }
+            Section {
+                ScrollView(.vertical) {
+                    LazyVGrid(columns: layout, content: {
+                        ForEach(CatalogViewModel.shared.animals, id: \.id) { item in
+                            PostComponent(post: item)
+                        }
+                    })
+                }
+            }
+            .padding(.horizontal, 10)
+        }
+        
+        
+        
     }
 }
 

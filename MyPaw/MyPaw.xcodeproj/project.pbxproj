@@ -14,6 +14,10 @@
 		C856EBAB2B442ACD0043F608 /* HelpingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBAA2B442ACD0043F608 /* HelpingView.swift */; };
 		C856EBAD2B443AD30043F608 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBAC2B443AD30043F608 /* HeaderComponent.swift */; };
 		C856EBAF2B4441310043F608 /* CardPostComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBAE2B4441310043F608 /* CardPostComponent.swift */; };
+		C856EBB12B45BB0D0043F608 /* HeaderSettingsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBB02B45BB0D0043F608 /* HeaderSettingsComponent.swift */; };
+		C856EBB32B45BE1B0043F608 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBB22B45BE1B0043F608 /* PostModel.swift */; };
+		C856EBB52B45C02A0043F608 /* PostComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBB42B45C02A0043F608 /* PostComponent.swift */; };
+		C8A712922B45D5D500492499 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A712912B45D5D500492499 /* CatalogViewModel.swift */; };
 		C8ACA2292B41C34500347793 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ACA2282B41C34500347793 /* LoginView.swift */; };
 		C8ACA22B2B41D27100347793 /* ValidateNumberModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ACA22A2B41D27100347793 /* ValidateNumberModelView.swift */; };
 		C8ACA22F2B41DFAB00347793 /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ACA22E2B41DFAB00347793 /* CardComponent.swift */; };
@@ -33,6 +37,10 @@
 		C856EBAA2B442ACD0043F608 /* HelpingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpingView.swift; sourceTree = "<group>"; };
 		C856EBAC2B443AD30043F608 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		C856EBAE2B4441310043F608 /* CardPostComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPostComponent.swift; sourceTree = "<group>"; };
+		C856EBB02B45BB0D0043F608 /* HeaderSettingsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSettingsComponent.swift; sourceTree = "<group>"; };
+		C856EBB22B45BE1B0043F608 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		C856EBB42B45C02A0043F608 /* PostComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComponent.swift; sourceTree = "<group>"; };
+		C8A712912B45D5D500492499 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
 		C8ACA2282B41C34500347793 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C8ACA22A2B41D27100347793 /* ValidateNumberModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateNumberModelView.swift; sourceTree = "<group>"; };
 		C8ACA22E2B41DFAB00347793 /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 		C8B0A4FA2B3DE87E00CBD3BF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C856EBB22B45BE1B0043F608 /* PostModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -120,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				C8ACA22A2B41D27100347793 /* ValidateNumberModelView.swift */,
+				C8A712912B45D5D500492499 /* CatalogViewModel.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -131,6 +141,8 @@
 				C8ACA22E2B41DFAB00347793 /* CardComponent.swift */,
 				C856EBAC2B443AD30043F608 /* HeaderComponent.swift */,
 				C856EBAE2B4441310043F608 /* CardPostComponent.swift */,
+				C856EBB02B45BB0D0043F608 /* HeaderSettingsComponent.swift */,
+				C856EBB42B45C02A0043F608 /* PostComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -206,10 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C856EBA92B4429D00043F608 /* MyPostsView.swift in Sources */,
+				C856EBB32B45BE1B0043F608 /* PostModel.swift in Sources */,
+				C856EBB12B45BB0D0043F608 /* HeaderSettingsComponent.swift in Sources */,
 				C8ACA2292B41C34500347793 /* LoginView.swift in Sources */,
+				C856EBB52B45C02A0043F608 /* PostComponent.swift in Sources */,
 				C8B0A4EE2B3DE48900CBD3BF /* TabBarComponent.swift in Sources */,
 				C8B0A4EC2B3DE48900CBD3BF /* MyPawApp.swift in Sources */,
 				C856EBAD2B443AD30043F608 /* HeaderComponent.swift in Sources */,
+				C8A712922B45D5D500492499 /* CatalogViewModel.swift in Sources */,
 				C8ACA22F2B41DFAB00347793 /* CardComponent.swift in Sources */,
 				C856EBA72B44286A0043F608 /* AddPostView.swift in Sources */,
 				C856EBAB2B442ACD0043F608 /* HelpingView.swift in Sources */,

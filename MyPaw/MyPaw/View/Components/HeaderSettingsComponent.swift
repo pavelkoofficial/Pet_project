@@ -1,18 +1,16 @@
 //
-//  HeadComponent.swift
+//  HeaderSettingsComponent.swift
 //  MyPaw
 //
-//  Created by Александр Павелко on 02.01.2024.
+//  Created by Александр Павелко on 03.01.2024.
 //
 
 import SwiftUI
 
-struct HeaderComponent: View {
-    var title: String = ""
-    
+struct HeaderSettingsComponent: View {
     var body: some View {
         HStack {
-            Text(title)
+            Text("Моя інформація")
               .font(
                 Font.custom("Manrope", size: 20)
                   .weight(.bold)
@@ -20,20 +18,19 @@ struct HeaderComponent: View {
               .foregroundColor(Color(.blackPaw))
             Spacer()
             Button {
-                print("Перехід до налаштувань")
+                print("Вихід з акаунту")
             } label: {
-                Image(systemName: "person.circle")
+                Image(systemName: "rectangle.portrait.and.arrow.forward")
                     .resizable()
                     .frame(width: 25, height: 25)
                     .foregroundColor(.blackPaw)
             }
             
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 5)
+        .padding()
     }
 }
 
 #Preview {
-    HeaderComponent(title: "Моя лапка")
+    HeaderSettingsComponent()
 }
