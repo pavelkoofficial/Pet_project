@@ -14,7 +14,7 @@ struct TabBarComponent: View {
                 .tabItem {
                 Image(systemName: "house")
             }
-            NotificationsView()
+            NoticeView()
             .tabItem {
                 Image(systemName: "bell")
             }

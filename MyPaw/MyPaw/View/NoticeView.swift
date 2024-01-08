@@ -1,5 +1,5 @@
 //
-//  HomeView.swift
+//  NotificationsView.swift
 //  MyPaw
 //
 //  Created by Александр Павелко on 02.01.2024.
@@ -7,32 +7,29 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct NoticeView: View {
     
-    let layout = [GridItem(.adaptive(minimum: screen.width / 2.2))]
+    let layout = [GridItem(.adaptive(minimum: screen.width / 1))]
     
     var body: some View {
+        
         VStack {
             ZStack {
-                HeaderComponent(title: "Моя Лапка")
+                HeaderComponent(title: "Мої сповіщення")
             }
             Section {
                 ScrollView(.vertical) {
                     LazyVGrid(columns: layout, content: {
-                        ForEach(PostViewModel.shared.animals, id: \.self) { item in
-                            PostComponent(post: item)
+                        ForEach(NoticeViewModal.shared.notice, id: \.self) { item in
+                            NoticeComponent(notice: item)
                         }
                     })
                 }
             }
-            .padding(.horizontal, 10)
         }
-        
-        
-        
     }
 }
 
 #Preview {
-    HomeView()
+    NoticeView()
 }

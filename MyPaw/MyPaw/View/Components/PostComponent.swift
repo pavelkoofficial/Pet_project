@@ -48,8 +48,7 @@ struct PostComponent: View {
 }
 
 #Preview {
-    PostComponent(post: PostModel(id: "1", 
-                                  imageURL: "GaryPostImage",
+    PostComponent(post: PostModel(imageURL: "GaryPostImage",
                                   title: "Гарі",
                                   description: "Йоркширський тер'єр", 
                                   age: 2.5))

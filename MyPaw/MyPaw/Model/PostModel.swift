@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct PostModel {
-    var id: String
+struct PostModel: Identifiable, Hashable {
+    var id = UUID()
     var imageURL: String // Масив посилань на зоображення
     var title: String
     var description: String
