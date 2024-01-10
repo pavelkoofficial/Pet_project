@@ -91,7 +91,8 @@ struct LoginView: View {
                         print("Не вірний формат номеру телефону")
                     }
                 }
-            }, label: { Text( isAyth ? "Увійти" : "Підтвердити" )
+            }, label: { 
+                Text( isAyth ? "Увійти" : "Підтвердити" )
                     .frame(maxWidth: .infinity)
                     .foregroundStyle(.whitePaw)
                     .padding(.vertical, 18)
