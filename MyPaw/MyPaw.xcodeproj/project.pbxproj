@@ -10,20 +10,20 @@
 		C8229AAE2B4ACF9F00B8B0BB /* NoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8229AAD2B4ACF9F00B8B0BB /* NoticeModel.swift */; };
 		C8229AB02B4AD24F00B8B0BB /* NoticeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8229AAF2B4AD24F00B8B0BB /* NoticeComponent.swift */; };
 		C8229AB22B4B416800B8B0BB /* NoticeViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8229AB12B4B416800B8B0BB /* NoticeViewModal.swift */; };
+		C8356D592B55A1B80054BEB2 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8356D582B55A1B80054BEB2 /* AnimalModel.swift */; };
 		C856EBA32B44242E0043F608 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBA22B44242E0043F608 /* HomeView.swift */; };
 		C856EBA52B4426760043F608 /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBA42B4426760043F608 /* NoticeView.swift */; };
 		C856EBA72B44286A0043F608 /* AddPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBA62B44286A0043F608 /* AddPostView.swift */; };
 		C856EBA92B4429D00043F608 /* MyPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBA82B4429D00043F608 /* MyPostsView.swift */; };
 		C856EBAB2B442ACD0043F608 /* HelpingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBAA2B442ACD0043F608 /* HelpingView.swift */; };
 		C856EBAD2B443AD30043F608 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBAC2B443AD30043F608 /* HeaderComponent.swift */; };
-		C856EBAF2B4441310043F608 /* CardPostComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBAE2B4441310043F608 /* CardPostComponent.swift */; };
 		C856EBB12B45BB0D0043F608 /* HeaderSettingsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBB02B45BB0D0043F608 /* HeaderSettingsComponent.swift */; };
-		C856EBB32B45BE1B0043F608 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBB22B45BE1B0043F608 /* PostModel.swift */; };
-		C856EBB52B45C02A0043F608 /* PostComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBB42B45C02A0043F608 /* PostComponent.swift */; };
-		C8A712922B45D5D500492499 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A712912B45D5D500492499 /* PostViewModel.swift */; };
+		C856EBB32B45BE1B0043F608 /* CardSmallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856EBB22B45BE1B0043F608 /* CardSmallModel.swift */; };
+		C886F7342B53F333002FE37E /* PassportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886F7332B53F333002FE37E /* PassportView.swift */; };
+		C886F7362B53F529002FE37E /* CardSmallComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886F7352B53F529002FE37E /* CardSmallComponent.swift */; };
+		C8A712922B45D5D500492499 /* CardSmallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A712912B45D5D500492499 /* CardSmallViewModel.swift */; };
 		C8ACA2292B41C34500347793 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ACA2282B41C34500347793 /* LoginView.swift */; };
 		C8ACA22B2B41D27100347793 /* ValidateNumberModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ACA22A2B41D27100347793 /* ValidateNumberModelView.swift */; };
-		C8ACA22F2B41DFAB00347793 /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ACA22E2B41DFAB00347793 /* CardComponent.swift */; };
 		C8ACA2312B41F0CB00347793 /* AddNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ACA2302B41F0CB00347793 /* AddNameView.swift */; };
 		C8ACA2332B41F49300347793 /* AddCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ACA2322B41F49300347793 /* AddCityView.swift */; };
 		C8B0A4EC2B3DE48900CBD3BF /* MyPawApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B0A4EB2B3DE48900CBD3BF /* MyPawApp.swift */; };
@@ -36,20 +36,20 @@
 		C8229AAD2B4ACF9F00B8B0BB /* NoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeModel.swift; sourceTree = "<group>"; };
 		C8229AAF2B4AD24F00B8B0BB /* NoticeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeComponent.swift; sourceTree = "<group>"; };
 		C8229AB12B4B416800B8B0BB /* NoticeViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewModal.swift; sourceTree = "<group>"; };
+		C8356D582B55A1B80054BEB2 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		C856EBA22B44242E0043F608 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C856EBA42B4426760043F608 /* NoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
 		C856EBA62B44286A0043F608 /* AddPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostView.swift; sourceTree = "<group>"; };
 		C856EBA82B4429D00043F608 /* MyPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsView.swift; sourceTree = "<group>"; };
 		C856EBAA2B442ACD0043F608 /* HelpingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpingView.swift; sourceTree = "<group>"; };
 		C856EBAC2B443AD30043F608 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
-		C856EBAE2B4441310043F608 /* CardPostComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPostComponent.swift; sourceTree = "<group>"; };
 		C856EBB02B45BB0D0043F608 /* HeaderSettingsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSettingsComponent.swift; sourceTree = "<group>"; };
-		C856EBB22B45BE1B0043F608 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
-		C856EBB42B45C02A0043F608 /* PostComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComponent.swift; sourceTree = "<group>"; };
-		C8A712912B45D5D500492499 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		C856EBB22B45BE1B0043F608 /* CardSmallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSmallModel.swift; sourceTree = "<group>"; };
+		C886F7332B53F333002FE37E /* PassportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportView.swift; sourceTree = "<group>"; };
+		C886F7352B53F529002FE37E /* CardSmallComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSmallComponent.swift; sourceTree = "<group>"; };
+		C8A712912B45D5D500492499 /* CardSmallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSmallViewModel.swift; sourceTree = "<group>"; };
 		C8ACA2282B41C34500347793 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C8ACA22A2B41D27100347793 /* ValidateNumberModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateNumberModelView.swift; sourceTree = "<group>"; };
-		C8ACA22E2B41DFAB00347793 /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
 		C8ACA2302B41F0CB00347793 /* AddNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNameView.swift; sourceTree = "<group>"; };
 		C8ACA2322B41F49300347793 /* AddCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityView.swift; sourceTree = "<group>"; };
 		C8B0A4E82B3DE48800CBD3BF /* MyPaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +119,7 @@
 				C856EBA62B44286A0043F608 /* AddPostView.swift */,
 				C856EBA82B4429D00043F608 /* MyPostsView.swift */,
 				C856EBAA2B442ACD0043F608 /* HelpingView.swift */,
+				C886F7332B53F333002FE37E /* PassportView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,8 +127,9 @@
 		C8B0A4FA2B3DE87E00CBD3BF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C856EBB22B45BE1B0043F608 /* PostModel.swift */,
+				C856EBB22B45BE1B0043F608 /* CardSmallModel.swift */,
 				C8229AAD2B4ACF9F00B8B0BB /* NoticeModel.swift */,
+				C8356D582B55A1B80054BEB2 /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				C8ACA22A2B41D27100347793 /* ValidateNumberModelView.swift */,
-				C8A712912B45D5D500492499 /* PostViewModel.swift */,
+				C8A712912B45D5D500492499 /* CardSmallViewModel.swift */,
 				C8229AB12B4B416800B8B0BB /* NoticeViewModal.swift */,
 			);
 			path = ModelView;
@@ -146,12 +148,10 @@
 			isa = PBXGroup;
 			children = (
 				C8B0A4ED2B3DE48900CBD3BF /* TabBarComponent.swift */,
-				C8ACA22E2B41DFAB00347793 /* CardComponent.swift */,
 				C856EBAC2B443AD30043F608 /* HeaderComponent.swift */,
-				C856EBAE2B4441310043F608 /* CardPostComponent.swift */,
 				C856EBB02B45BB0D0043F608 /* HeaderSettingsComponent.swift */,
-				C856EBB42B45C02A0043F608 /* PostComponent.swift */,
 				C8229AAF2B4AD24F00B8B0BB /* NoticeComponent.swift */,
+				C886F7352B53F529002FE37E /* CardSmallComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -227,24 +227,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				C856EBA92B4429D00043F608 /* MyPostsView.swift in Sources */,
-				C856EBB32B45BE1B0043F608 /* PostModel.swift in Sources */,
+				C8356D592B55A1B80054BEB2 /* AnimalModel.swift in Sources */,
+				C856EBB32B45BE1B0043F608 /* CardSmallModel.swift in Sources */,
 				C856EBB12B45BB0D0043F608 /* HeaderSettingsComponent.swift in Sources */,
 				C8ACA2292B41C34500347793 /* LoginView.swift in Sources */,
-				C856EBB52B45C02A0043F608 /* PostComponent.swift in Sources */,
 				C8B0A4EE2B3DE48900CBD3BF /* TabBarComponent.swift in Sources */,
 				C8B0A4EC2B3DE48900CBD3BF /* MyPawApp.swift in Sources */,
 				C856EBAD2B443AD30043F608 /* HeaderComponent.swift in Sources */,
-				C8A712922B45D5D500492499 /* PostViewModel.swift in Sources */,
+				C8A712922B45D5D500492499 /* CardSmallViewModel.swift in Sources */,
+				C886F7362B53F529002FE37E /* CardSmallComponent.swift in Sources */,
 				C8229AB02B4AD24F00B8B0BB /* NoticeComponent.swift in Sources */,
-				C8ACA22F2B41DFAB00347793 /* CardComponent.swift in Sources */,
 				C856EBA72B44286A0043F608 /* AddPostView.swift in Sources */,
 				C856EBAB2B442ACD0043F608 /* HelpingView.swift in Sources */,
 				C8229AAE2B4ACF9F00B8B0BB /* NoticeModel.swift in Sources */,
 				C8ACA22B2B41D27100347793 /* ValidateNumberModelView.swift in Sources */,
 				C8229AB22B4B416800B8B0BB /* NoticeViewModal.swift in Sources */,
 				C856EBA32B44242E0043F608 /* HomeView.swift in Sources */,
+				C886F7342B53F333002FE37E /* PassportView.swift in Sources */,
 				C8ACA2312B41F0CB00347793 /* AddNameView.swift in Sources */,
-				C856EBAF2B4441310043F608 /* CardPostComponent.swift in Sources */,
 				C8ACA2332B41F49300347793 /* AddCityView.swift in Sources */,
 				C856EBA52B4426760043F608 /* NoticeView.swift in Sources */,
 			);

@@ -19,8 +19,8 @@ struct HomeView: View {
             Section {
                 ScrollView(.vertical) {
                     LazyVGrid(columns: layout, content: {
-                        ForEach(PostViewModel.shared.animals, id: \.self) { item in
-                            PostComponent(post: item)
+                        ForEach(CardSmallViewModel.shared.animals, id: \.self) { item in
+                            CardSmallComponent(cardSmall: item)
                         }
                     })
                 }
